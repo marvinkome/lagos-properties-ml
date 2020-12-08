@@ -16,7 +16,8 @@ Using selenium, I fetched data from nigerianpropertycenter.com for houses in Yab
 
 I was able to build a model that predicts the rent of a house.
 
-MAE (mean absolute error): NGN 275,194
-RMSE (root mean square error): NGN 374,868
+**MAE** (mean absolute error): NGN 275,194
+
+**RMSE** (root mean square error): NGN 374,868
 
 This basically say the rent is +/- NGN 275,194 when predicted by the model.
