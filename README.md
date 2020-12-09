@@ -21,3 +21,19 @@ I was able to build a model that predicts the rent of a house.
 **RMSE** (root mean square error): NGN 374,868
 
 This basically say the rent is +/- NGN 275,194 when predicted by the model.
+
+### Area prediction
+
+Using selenium, I fetched data from nigerianpropertycenter.com for houses in Yaba, Surulere, Gbadaga and Maryland. Then using features such as
+
+- Number of rooms
+- City (Yaba, Surulere, Gbagada or Maryland)
+- Serviced apartment
+- Funished apartment
+- Number of bathrooms
+- Number of toilets
+- Month added to site
+
+I was able to build a model that predicts the area a house is located.
+
+**Accuracy** (mean absolute error): 0.47
