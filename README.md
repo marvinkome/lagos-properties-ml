@@ -15,12 +15,12 @@ Using selenium, I fetched data from nigerianpropertycenter.com for houses in Yab
 - Month added to site
 
 I was able to build a model that predicts the rent of a house.
+The predictions on average were off by 26% (when using keras and tensorflow) and 25.5% (when using random forest)
 
-**MAE** (mean absolute error): NGN 275,194
+To improve this model I can add more features like
 
-**RMSE** (root mean square error): NGN 374,868
-
-This basically say the rent is +/- NGN 275,194 when predicted by the model.
+- Upstairs or Downstairs
+- Using the images to get more features about the standard of the house
 
 ### Area prediction
 
